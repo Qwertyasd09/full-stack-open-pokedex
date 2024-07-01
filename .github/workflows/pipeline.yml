@@ -24,6 +24,8 @@ jobs:
       - name: test
         run: npm run test
       - name: installing browsers
+        run: npx playwright install
+      - name: installing browsers
         run: sudo npx playwright install-deps
       - name: test e2e
         run: npm run test:e2e
