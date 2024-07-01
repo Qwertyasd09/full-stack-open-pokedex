@@ -1,4 +1,4 @@
-export default {
+export default [{
   'env': {
     'browser': true,
     'es6': true,
@@ -51,4 +51,4 @@ export default {
       'version': 'detect'
     }
   }
-}
+}]
